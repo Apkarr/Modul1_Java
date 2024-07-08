@@ -6,10 +6,14 @@ public class mycalculator {
         Calculator mycalculator = new Calculator();
         double sum;
         double r;
-        mycalculator.a = 12.6;
-        mycalculator.b = 9.5;
+        double m;
+        double d;
+        mycalculator.a = 3;
+        mycalculator.b = 5;
         sum = mycalculator.a + mycalculator.b;
         r = mycalculator.a - mycalculator.b;
+        m = mycalculator.a * mycalculator.b;
+        d = mycalculator.a / mycalculator.b;
         System.out.println(sum);
         System.out.println(r);
         mycalculator.multiply();
