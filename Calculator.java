@@ -1,7 +1,6 @@
 package Modul1.Classes;
 
 public class Calculator {
-    int c;
     double a;
     double b;
    public double summa() {
@@ -13,9 +12,8 @@ public class Calculator {
    public void multiply() {
        System.out.println("произведение= ");
    }
-   public double division() {
+   public void division() {
        System.out.println("частное= ");
-       return c / b;
    }
     @Override
     public String toString() {
