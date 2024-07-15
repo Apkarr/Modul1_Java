@@ -7,12 +7,13 @@ public class mycalculator {
         mycalculator.a = 30;
         mycalculator.b = 5;
         System.out.println(mycalculator);
-        double num = mycalculator.summa();
+        double num = mycalculator.summa(30, 5);
         System.out.println(num);
-        double num1 = mycalculator.subtraction();
+        double num1 = mycalculator.subtraction(30, 5);
         System.out.println(num1);
-        mycalculator.multiply();
-        mycalculator.division();
+        mycalculator.multiply(30, 5);
+        mycalculator.division(30, 5);
+
     }
 
 }
